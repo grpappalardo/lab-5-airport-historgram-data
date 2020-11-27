@@ -4,7 +4,7 @@
 
 from math import cos,radians,sin,pow,asin,sqrt
 
-def distance(lat1, long1, lat2, long2):
+def find_distance(lat1, long1, lat2, long2):
     radius = 6371 # radius of the earth in km, roughly https://en.wikipedia.org/wiki/Earth_radius
 
     # Lat,long are in degrees but we need radians
